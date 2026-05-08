@@ -1,0 +1,50 @@
+### This is 'GET' request for 'listSchools'
+
+GET http://localhost:3001/listSchools?latitude=28.5636&longitude=77.1721
+
+
+### This is 'POST' request for 'addSchool'
+
+## 1
+POST http://localhost:3001/addSchool
+Content-Type: application/json
+
+{
+    "name": "Delhi Public School",
+    "address": "Sector 24, R.K. Puram, New Delhi, 110022",
+    "latitude": 28.5636,
+    "longitude": 77.1721
+}
+
+## 2
+POST http://localhost:3001/addSchool
+Content-Type: application/json
+
+{
+    "name": "Delhi Public School",
+    "address": "Sector 24, R.K. Puram, New Delhi, 110022",
+    "latitude": 28.5636,
+    "longitude": 77.1721
+}
+
+## 3
+POST http://localhost:3001/addSchool
+Content-Type: application/json
+
+{
+    "name": "Santhome Public School",
+    "address": "Sector 24, R.K. Puram, New Delhi, 110022",
+    "latitude": 28.5636,
+    "longitude": 77.1721
+}
+
+## 4
+POST http://localhost:3001/addSchool
+Content-Type: application/json
+
+{
+    "name": "St. John's Public School",
+    "address": "Sector 24, R.K. Puram, New Delhi, 110022",
+    "latitude": 28.5636,
+    "longitude": 77.1721
+}
