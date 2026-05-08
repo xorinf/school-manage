@@ -1,3 +1,7 @@
+
+####
+# This is REST Client tool i use this to test endpoints
+####
 ### This is 'GET' request for 'listSchools'
 
 GET https://school-manage-production.up.railway.app/listSchools?latitude=28.5636&longitude=77.1721
@@ -5,7 +9,7 @@ GET https://school-manage-production.up.railway.app/listSchools?latitude=28.5636
 
 ### This is 'POST' request for 'addSchool'
 
-## 1
+### 1
 POST https://school-manage-production.up.railway.app/addSchool
 Content-Type: application/json
 
@@ -16,7 +20,7 @@ Content-Type: application/json
     "longitude": 77.1721
 }
 
-## 2
+### 2
 POST https://school-manage-production.up.railway.app/addSchool
 Content-Type: application/json
 
@@ -27,7 +31,7 @@ Content-Type: application/json
     "longitude": 77.1721
 }
 
-## 3
+###3
 POST https://school-manage-production.up.railway.app/addSchool
 Content-Type: application/json
 
@@ -38,7 +42,7 @@ Content-Type: application/json
     "longitude": 77.1721
 }
 
-## 4
+### 4
 POST https://school-manage-production.up.railway.app/addSchool
 Content-Type: application/json
 
